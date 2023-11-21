@@ -12,8 +12,6 @@ Um projeto feito para gerenciar filmes e exibições de um cinema.
 - <a href="#tecnologias-utilizadas">Tecnologias utilizadas</a>
 - <a href="#autor">Autor</a>
 
-<!--***verificar linkagem-->
-
 ## Sobre o Projeto
 Sempre gostei de cinemas e, quando eu comecei a aprender Java juntamente com os comandos para a manipulação de um banco de dados com o MySQL, decidi praticá-los criando essa aplicação. Foi feita para gerenciar e organizar filmes e exibições de um cinema com 3 salas.
 
@@ -59,8 +57,7 @@ CREATE TABLE `showtime` (
   CONSTRAINT `showtime_ibfk_1` FOREIGN KEY (`movie_id`) REFERENCES `movie` (`id`)
 )
 ```
-
-<!--Observação quanto ao código de execução no termianl (bash): Ainda não aprendi. ********-->
+Honesta observação quanto ao bash script: Ainda não aprendi os comandos necessários para executar este projeto.
 
 ## Tecnologias utilizadas
 - Java
