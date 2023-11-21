@@ -2,7 +2,7 @@
 
 Um projeto feito para gerenciar filmes e exibições de um cinema.
 
-<!--Vídeo ************-->
+<!--Vídeo ************ e lembrar de tirar o temporary do código-->
 
 ## Íncide
 - <a href="#sobre-o-projeto">Sobre o Projeto</a>
