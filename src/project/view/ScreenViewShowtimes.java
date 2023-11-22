@@ -178,6 +178,7 @@ public class ScreenViewShowtimes extends javax.swing.JFrame {
                             } else {
                                 remove.setVisible(false);
                             }
+                            setCursor(Cursor.DEFAULT_CURSOR);
                         }
 
                     });
