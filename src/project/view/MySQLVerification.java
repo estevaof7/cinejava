@@ -107,7 +107,6 @@ public class MySQLVerification extends javax.swing.JFrame {
             this.dispose();
 
             MovieDAO mdao = new MovieDAO();
-            //mdao.temporary();
             mdao.removePastShowtimes();
 
             ScreenMain sm = new ScreenMain();
