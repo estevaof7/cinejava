@@ -488,46 +488,4 @@ public class MovieDAO {
         else return String.valueOf(num);
     }
     //</editor-fold>
-
-    public void temporary() {
-        LocalDate today = LocalDate.now();
-        Showtime s1 = new Showtime(getMovieIdFromTitle("Inception"), today.toString(), timeToInteger(7, 30, true), 1);
-        Showtime s2 = new Showtime(getMovieIdFromTitle("Inception"), today.toString(), timeToInteger(2, 0, false), 2);
-        Showtime s3 = new Showtime(getMovieIdFromTitle("Inception"), today.toString(), timeToInteger(4, 30, false), 3);
-        Showtime s4 = new Showtime(getMovieIdFromTitle("Inception"), today.toString(), timeToInteger(7, 30, false), 1);
-        Showtime s5 = new Showtime(getMovieIdFromTitle("La La Land"), today.toString(), timeToInteger(2, 30, false), 1);
-        Showtime s6 = new Showtime(getMovieIdFromTitle("La La Land"), today.toString(), timeToInteger(5, 0, false), 2);
-        Showtime s7 = new Showtime(getMovieIdFromTitle("La La Land"), today.toString(), timeToInteger(9, 0, false), 3);
-        Showtime s8 = new Showtime(getMovieIdFromTitle("Mid 90s"), today.toString(), timeToInteger(10, 0, true), 1);
-        Showtime s9 = new Showtime(getMovieIdFromTitle("Mid 90s"), today.toString(), timeToInteger(12, 0, false), 2);
-        Showtime s10 = new Showtime(getMovieIdFromTitle("Mid 90s"), today.toString(), timeToInteger(4, 0, false), 1);
-        Showtime s11 = new Showtime(getMovieIdFromTitle("Mid 90s"), today.toString(), timeToInteger(8, 0, false), 2);
-        Showtime s12 = new Showtime(getMovieIdFromTitle("Pulp Fiction"), today.plusDays(1).toString(), timeToInteger(2, 30, false), 1);
-        Showtime s13 = new Showtime(getMovieIdFromTitle("Pulp Fiction"), today.plusDays(1).toString(), timeToInteger(5, 0, false), 2);
-        Showtime s14 = new Showtime(getMovieIdFromTitle("Pulp Fiction"), today.plusDays(1).toString(), timeToInteger(7, 30, false), 3);
-        Showtime s15 = new Showtime(getMovieIdFromTitle("The Social Network"), today.plusDays(1).toString(), timeToInteger(10, 0, true), 1);
-        Showtime s16 = new Showtime(getMovieIdFromTitle("The Social Network"), today.plusDays(1).toString(), timeToInteger(4, 0, false), 3);
-        Showtime s17 = new Showtime(getMovieIdFromTitle("The Social Network"), today.plusDays(1).toString(), timeToInteger(5, 30, false), 1);
-        Showtime s18 = new Showtime(getMovieIdFromTitle("The Social Network"), today.plusDays(1).toString(), timeToInteger(9, 0, false), 2);
-        
-        this.addShowtime(s1);
-        this.addShowtime(s2);
-        this.addShowtime(s3);
-        this.addShowtime(s4);
-        this.addShowtime(s5);
-        this.addShowtime(s6);
-        this.addShowtime(s7);
-        this.addShowtime(s8);
-        this.addShowtime(s9);
-        this.addShowtime(s10);
-        this.addShowtime(s11);
-        this.addShowtime(s12);
-        this.addShowtime(s13);
-        this.addShowtime(s14);
-        this.addShowtime(s15);
-        this.addShowtime(s16);
-        this.addShowtime(s17);
-        this.addShowtime(s18);
-        
-    }
 }
