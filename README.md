@@ -2,7 +2,7 @@
 
 Um projeto feito para gerenciar filmes e exibições de um cinema.
 
-<!--Vídeo ************ e lembrar de tirar o temporary do código-->
+## [Vídeo do projeto](https://youtu.be/DiwVSQ6t_Ps)
 
 ## Íncide
 - <a href="#sobre-o-projeto">Sobre o Projeto</a>
@@ -57,7 +57,7 @@ CREATE TABLE `showtime` (
   CONSTRAINT `showtime_ibfk_1` FOREIGN KEY (`movie_id`) REFERENCES `movie` (`id`)
 )
 ```
-Honesta observação quanto ao bash script: Ainda não aprendi os comandos necessários para executar este projeto.
+Honesta observação quanto ao bash script: Ainda não aprendi os comandos necessários para executar este projeto. Caso a execução tenha falhado, aqui está o [vídeo do projeto em execução](https://youtu.be/DiwVSQ6t_Ps).
 
 ## Tecnologias utilizadas
 - Java
