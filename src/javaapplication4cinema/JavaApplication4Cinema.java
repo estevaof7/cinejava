@@ -1,6 +1,6 @@
 package javaapplication4cinema;
 
-import project.view.MySQLVerification;
+import project.core.dao.connection.MySQLVerification;
 
 public class JavaApplication4Cinema {
     

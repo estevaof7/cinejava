@@ -7,8 +7,8 @@ import javax.swing.JOptionPane;
 
 public class ConnectionJDBC {
     private static final String URL = "jdbc:mysql://localhost:3306/cinema";
-    private static String USER; //For recurrent use of the application: private static final String USER = "";
-    private static String PASSWORD; //For recurrent use of the application: private static final String PASSWORD = "";
+    protected static String USER; //For recurrent use of the application: private static final String USER = "";
+    protected static String PASSWORD; //For recurrent use of the application: private static final String PASSWORD = "";
 
     public void setUSER(String USER) {
         ConnectionJDBC.USER = USER;
