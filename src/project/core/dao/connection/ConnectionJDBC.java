@@ -9,14 +9,6 @@ public class ConnectionJDBC {
     private static final String URL = "jdbc:mysql://localhost:3306/cinema";
     protected static String USER; //For recurrent use of the application: private static final String USER = "";
     protected static String PASSWORD; //For recurrent use of the application: private static final String PASSWORD = "";
-
-    public void setUSER(String USER) {
-        ConnectionJDBC.USER = USER;
-    }
-
-    public void setPASSWORD(String PASSWORD) {
-        ConnectionJDBC.PASSWORD = PASSWORD;
-    }
     
     public static Connection conn;
     public static Connection getConnection() {
