@@ -1,9 +1,9 @@
-package project.view;
+package project.core.dao.connection;
 
 import java.sql.PreparedStatement;
 import project.core.dao.MovieDAO;
-import project.core.dao.connection.ConnectionJDBC;
 import java.sql.SQLException;
+import project.view.ScreenMain;
 
 public class MySQLVerification extends javax.swing.JFrame {
 
@@ -92,11 +92,9 @@ public class MySQLVerification extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    ConnectionJDBC conn = new ConnectionJDBC();
-
     private void verifyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_verifyActionPerformed
-        conn.setUSER(fieldUser.getText());
-        conn.setPASSWORD(fieldPassword.getText());
+        ConnectionJDBC.USER = fieldUser.getText();
+        ConnectionJDBC.PASSWORD = fieldPassword.getText();
 
         PreparedStatement ps = null;
 
