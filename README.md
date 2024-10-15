@@ -67,4 +67,5 @@ Honesta observação quanto ao bash script: Ainda não aprendi os comandos neces
 ## Autor
 Estêvão Ferreira Caixeta
 
-[www.linkedin.com/in/estevaof7](www.linkedin.com/in/estevaof7)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/estevaof7/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://eng-portfolio-xi.vercel.app/) 
